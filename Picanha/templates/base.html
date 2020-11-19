@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Picanha de Chernobill</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/main.css') }}">
+  </head>
+  <body>
+    <div class="container-fluid mycontainer">
+      <div class="row justify-content-between align-items-center my-row">
+        <div class="col-md-8 col-sm-12 col-xs-12 my-col">
+          <a class="nav-link" href="{{ url_for('index')}}"><h3>PICANHA de CHERNOBILL</h3></a>
+          <!--a href="{{ url_for('index')}}"><img src="{{ url_for('static', filename='pica_logo6.jpeg') }}" style="width: 275px;height:125px" alt=""></a-->
+        </div>
+        <div class="col-md-4 col-sm-0 col-xs-0 my-col">
+          <nav class="nav justify-content-end">
+            <!--a class="nav-link" href="{{ url_for('videos')}}">Videos</a-->
+            <a class="nav-link active" href="https://www.facebook.com/pg/picanhadechernobill/events/?ref=page_internal" target="_blank">Events</a>
+          </nav>
+        </div>
+    </div>
+    {% block content %}
+
+    {% endblock %}
+    <div class="my-container">
+      <div class="jumbotron jumbotron-fluid align-items-center my-row2">
+        <p class="lead">Reel2Reel Goulash Entertainment</p>
+        <p class="lead">Web Design: Copyright &copy; 2020-2022 DonaldK Inc via Flip & J productions.</p>
+        <p class="lead"><i>Content: Copyright &copy; 2020-2022 Twist Entertainment. All rights reserved.</i></p>
+      </div>
+    </div>
+          
+       
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+</body>
+</html>

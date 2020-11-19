@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Harmattan&display=swap');
+
+/*html { font-size: calc(.75em + .4vw) }
+input { font-size: inherit }*/
+
+body {
+    margin-top: 8px;
+    font-family: 'Roboto', sans-serif;
+    font-size: auto;
+    background-color: rgba(255, 255, 255, 0.623);
+    color: black;
+    text-align: justify;
+  }
+
+html {
+  /* Below prevents page overscrolling*/
+    overflow: hidden;
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    overflow: auto;
+}
+
+button.stripe-button-el,
+button.stripe-button-el>span {
+  background-color: #00ff00 !important;
+  background-image: none;
+  color: black;
+}
+
+h1 {
+  color: #ff0000;
+}
+
+h4 {
+  color: #ff0000;
+}
+
+h3 {
+  color: #ff0000;
+}
+
+.btn {
+  border: 1px solid #fb0094;
+  border-radius: 5px;
+  box-sizing: border-box;
+  background-color: white;
+	border-radius:28px;
+	display:inline-block;
+	cursor:pointer;
+  color: black;
+  font-size:18px;
+	padding:16px 31px;
+	text-decoration:none;
+}
+
+.widget-hero {
+  height: 50vw;
+  overflow: hidden; }
+  @media screen and (max-width: 459px) {
+    .widget-hero {
+      height: 72.8vw; } }
+  
+  @media screen and (max-width: 1023px) {
+    .widget-hero .desktop {
+      display: block; } }
+  .widget-hero .mobile {
+    display: block; }
+    @media screen and (max-width: 1023px) {
+      .widget-hero .mobile {
+        display: block; } }
+  .widget-hero .text {
+    width: 100%;
+    position: absolute;
+    bottom: 8rem; }
+    @media screen and (max-width: 1023px) {
+      .widget-hero .text {
+        bottom: 1rem; } }
+    .widget-hero .text h4 {
+      color: #fff;
+      margin-bottom: 0;
+      opacity: 0;
+      transform: translate3d(-10%, 0, 0);
+      transition: opacity 0.6s cubic-bezier(0.694, 0, 0.335, 1), transform 0.6s cubic-bezier(0.694, 0, 0.335, 1); }
+    .widget-hero .text h3 {
+      font-size: 5rem;
+      color: #fff;
+      text-transform: initial;
+      opacity: 0;
+      transform: translate3d(-10%, 0, 0);
+      transition: opacity 0.6s cubic-bezier(0.694, 0, 0.335, 1), transform 0.6s cubic-bezier(0.694, 0, 0.335, 1); }
+      @media screen and (max-width: 1023px) {
+        .widget-hero .text h3 {
+          font-size: 10vw; } }
+  .widget-hero.is-animated-in .text h4 {
+    opacity: 1;
+    transform: translateZ(0); }
+  .widget-hero.is-animated-in .text h3 {
+    opacity: 1;
+    transform: translateZ(0); }
+  .widget-hero .action {
+    top: 0;
+    left: 8%; }
+  .widget-hero.fluid {
+    height: 100%;
+  }
+    .widget-hero.fluid img {
+      margin: 0px;
+      width: 100%;
+      height: 100%;
+      transform: unset; 
+      object-fit: contain;
+      border: 1px solid #0000ff;
+      border-radius: 1px;
+    }
+
+.nav-link {
+  color: black;
+  font-size: 28px;
+}
+
+
+/*
+
+/*
+}
+
+.my-col {
+  border: 3px dotted blue;
+}
+*/
+
+
+
+.my-row2 img{
+  border: none;
+
+}
+
+
+
+
+
+
+/*=========FOOOTER==========*/
+.my-card {
+background-color: #0000ff;
+color: white;
+font-family: 'Roboto', sans-serif;
+padding-bottom: -75%;
+margin-left: auto;
+margin-right: auto;
+width: 100%;
+border-inline-color: none;
+}
+
+
+.card-deck {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+ 
+}
+
+.card {
+  border: 0;
+}
+
+
+
+.card:before, .card:after {
+  content: '';
+  position: absolute;
+  left: -2px;
+  top: -2px;
+  background: linear-gradient(75deg, #fb0094, #0000ff, #00ff00,#ffff00, #ff0000, #fb0094, 
+    #0000ff, #00ff00,#ffff00, #ff0000);
+  background-size: 400%;
+  width: calc(100% + 5px);
+  height: calc(100% + 5px);
+  z-index: -1;
+  animation: steam 20s linear infinite;
+}
+
+
+.row {
+  border: none;
+}
+
+
+.jumbotron {
+  text-align: center;
+  background-color: black !important;
+  border: 1px solid  #00ff00;
+  color: white;
+  font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+/*=========VIDEO PAGE==========*/
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  padding-top: 35px;
+  height: 0;
+}
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+
